@@ -109,7 +109,7 @@ class DioUtil {
   }
 
   DioUtil._init() {
-    _dio = new Dio(_options);
+    _dio = new Dio();
   }
 
   /// 打开debug模式.
